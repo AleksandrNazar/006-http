@@ -2,4 +2,4 @@
 header('Content-Type: text/plain');
 header('Content-Type: application/txt');
 header('Content-Disposition: attachment; filename="text-file.txt"');
-echo 'Текст';
+echo $_GET["text"];
